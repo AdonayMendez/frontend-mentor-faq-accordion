@@ -36,7 +36,7 @@ main{
   position: absolute; 
   top: 0; 
   left: 0;  
-  background-color: rgba(255, 166, 0, 0.342);
+  /* background-color: rgba(255, 166, 0, 0.342); */
 
   display: flex; 
   justify-content: center; 
@@ -49,4 +49,14 @@ main{
   max-width: 550px;
   min-height: 60%;
   border-radius: .8rem;
+
+  display: flex;
 }
+
+.answer{
+  display: none; 
+}
+
+.answer.show{
+  display: block; 
+} 

@@ -155,7 +155,7 @@ main{
 
 
 
-@media (min-width: 400px){
+@media (min-width: 25rem){
 
   .background-img-container{
     height: 20rem;
